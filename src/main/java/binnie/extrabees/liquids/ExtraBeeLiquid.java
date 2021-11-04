@@ -14,9 +14,11 @@ import net.minecraftforge.fluids.FluidStack;
 import java.awt.Color;
 
 public enum ExtraBeeLiquid implements ILiquidType {
-	ACID("acid", new Color(0xafeb19)),
-	POISON("poison", new Color(0xeb14eb)),
-	GLACIAL("liquidnitrogen", new Color(0x96c8c8));
+	ACID("acid", new Color(11528985)), 
+    	POISON("poison", new Color(15406315)), 
+    	AMBROSIA("ambrosia", new Color(14392610)), 
+    	ICHOR("ichor", new Color(16569932)), 
+    	GLACIAL("liquidnitrogen", new Color(9881800));
 
 	protected String ident;
 	protected IIcon icon;
