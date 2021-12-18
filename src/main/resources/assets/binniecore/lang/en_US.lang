@@ -199,6 +199,8 @@ binniecore.item.container.glass=Bottle
 binniecore.item.container.cylinder=Cylinder
 
 binniecore.item.container.capsule.acid=Acid Capsule
+binniecore.item.container.capsule.ambrosia=Ambrosia Capsule
+binniecore.item.container.capsule.ichor=Ichor Capsule
 binniecore.item.container.capsule.poison=Poison Capsule
 binniecore.item.container.capsule.liquidnitrogen=Nitrogen Capsule
 binniecore.item.container.capsule.sap=Sap Capsule
@@ -207,6 +209,8 @@ binniecore.item.container.capsule.latex=Latex Capsule
 binniecore.item.container.capsule.turpentine=Turpentine Capsule
 
 binniecore.item.container.refractory.acid=Acid Capsule
+binniecore.item.container.refractory.ambrosia=Ambrosia Capsule
+binniecore.item.container.refractory.ichor=Ichor Capsule
 binniecore.item.container.refractory.poison=Poison Capsule
 binniecore.item.container.refractory.liquidnitrogen=Nitrogen Capsule
 binniecore.item.container.refractory.sap=Sap Capsule
@@ -215,6 +219,8 @@ binniecore.item.container.refractory.latex=Latex Capsule
 binniecore.item.container.refractory.turpentine=Turpentine Capsule
 
 binniecore.item.container.can.acid=Acid Can
+binniecore.item.container.can.ambrosia=Ambrosia Can
+binniecore.item.container.can.ichor=Ichor Can
 binniecore.item.container.can.poison=Poison Can
 binniecore.item.container.can.liquidnitrogen=Nitrogen Can
 binniecore.item.container.can.sap=Sap Can
@@ -223,6 +229,8 @@ binniecore.item.container.can.latex=Latex Can
 binniecore.item.container.can.turpentine=Turpentine Can
 
 binniecore.item.container.bucket.acid=Acid Bucket
+binniecore.item.container.bucket.ambrosia=Ambrosia Bucket
+binniecore.item.container.bucket.ichor=Ichor Bucket
 binniecore.item.container.bucket.poison=Poison Bucket
 binniecore.item.container.bucket.liquidnitrogen=Nitrogen Bucket
 binniecore.item.container.bucket.sap=Sap Bucket
@@ -231,6 +239,8 @@ binniecore.item.container.bucket.latex=Latex Bucket
 binniecore.item.container.bucket.turpentine=Turpentine Bucket
 
 binniecore.item.container.glass.acid=Acid Glass
+binniecore.item.container.glass.ambrosia=Ambrosia Glass
+binniecore.item.container.glass.ichor=Ichor Glass
 binniecore.item.container.glass.poison=Poison Glass
 binniecore.item.container.glass.liquidnitrogen=Nitrogen Glass
 binniecore.item.container.glass.sap=Sap Glass
@@ -239,6 +249,8 @@ binniecore.item.container.glass.latex=Latex Glass
 binniecore.item.container.glass.turpentine=Turpentine Glass
 
 binniecore.item.container.cylinder.acid=Acid Cylinder
+binniecore.item.container.cylinder.ambrosia=Ambrosia Cylinder
+binniecore.item.container.cylinder.ichor=Ichor Cylinder
 binniecore.item.container.cylinder.poison=Poison Cylinder
 binniecore.item.container.cylinder.liquidnitrogen=Nitrogen Cylinder
 binniecore.item.container.cylinder.sap=Sap Cylinder
