@@ -177,6 +177,8 @@ extrabees.block.hive.3=Marble Hive
 ## Liquids
 
 extrabees.acid=Acid
+extrabees.ambrosia=Ambrosia
+extrabees.ichor=Ichor
 extrabees.poison=Poison
 extrabees.glacial=Liquid Nitrogen
 

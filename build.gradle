@@ -25,12 +25,12 @@ plugins {
 apply plugin: "se.bjurr.gitchangelog.git-changelog-gradle-plugin"
 apply plugin: 'forge'
 
-version = "2.0.31"
+version = "2.0.32"
 if (System.getenv("BUILD_NUMBER") != null) {
     version = version + "." + System.getenv("BUILD_NUMBER")
 }
 group = "binnie" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "binnie-mods-1.7.10-gtnh"
+archivesBaseName = "binnie-mods-1.7.10-LE"
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
