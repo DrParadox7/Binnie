@@ -900,7 +900,7 @@ public enum ExtraTreeSpecies implements IAlleleTreeSpecies, IIconProvider, IGerm
 
         ExtraTreeSpecies.SwampGum.addFamily(familyJungle)
                 .setLeafType(LeafType.JUNGLE)
-                .setHeight(EnumAllele.Height.SMALLEST)
+                .setHeight(EnumAllele.Height.LARGEST)
                 .setFertility(EnumAllele.Saplings.LOWEST)
                 .setMaturation(EnumAllele.Maturation.SLOWER)
                 .setGirth(2);
