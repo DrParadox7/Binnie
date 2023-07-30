@@ -115,7 +115,7 @@ public enum ExtraBeesFlowers implements IFlowerProvider, IAlleleFlowers, IChromo
                 return new ItemStack[] { new ItemStack(Blocks.sapling) };
 
             case WOOD:
-                return new ItemStack[] {new ItemStack(Blocks.log)};
+                return new ItemStack[] { new ItemStack(Blocks.log) };
         }
         return new ItemStack[0];
     }

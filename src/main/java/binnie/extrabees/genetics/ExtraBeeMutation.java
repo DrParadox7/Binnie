@@ -1,7 +1,6 @@
 package binnie.extrabees.genetics;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import binnie.extrabees.genetics.requirements.*;

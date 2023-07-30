@@ -15,6 +15,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 public enum ExtraBeeLiquid implements ILiquidType {
+
     ACID("acid", new Color(11528985)),
     POISON("poison", new Color(15406315)),
     AMBROSIA("ambrosia", new Color(14392610)),

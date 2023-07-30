@@ -8,7 +8,6 @@ import java.util.Map;
 
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.common.BiomeDictionary;
 
 import binnie.core.Mods;

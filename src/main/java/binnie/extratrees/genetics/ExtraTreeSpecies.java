@@ -13,6 +13,8 @@ import net.minecraft.world.World;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.common.EnumPlantType;
 
+import com.mojang.authlib.GameProfile;
+
 import binnie.Binnie;
 import binnie.core.Mods;
 import binnie.core.util.I18N;
@@ -78,9 +80,6 @@ import binnie.extratrees.worldgen.WorldGenWesternHemlock;
 import binnie.extratrees.worldgen.WorldGenWhitebeam;
 import binnie.extratrees.worldgen.WorldGenYew;
 import binnie.genetics.genetics.AlleleHelper;
-
-import com.mojang.authlib.GameProfile;
-
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import forestry.api.apiculture.EnumBeeChromosome;
@@ -564,12 +563,9 @@ public enum ExtraTreeSpecies implements IAlleleTreeSpecies, IIconProvider, IGerm
                 .setYield(EnumAllele.Yield.LOWER).setSappiness(EnumAllele.Sappiness.LOW)
                 .setMaturation(EnumAllele.Maturation.SLOWEST);
 
-        ExtraTreeSpecies.SwampGum.addFamily(familyJungle)
-                .setLeafType(LeafType.JUNGLE)
-                .setHeight(EnumAllele.Height.LARGEST)
-                .setFertility(EnumAllele.Saplings.LOWEST)
-                .setMaturation(EnumAllele.Maturation.SLOWER)
-                .setGirth(2);
+        ExtraTreeSpecies.SwampGum.addFamily(familyJungle).setLeafType(LeafType.JUNGLE)
+                .setHeight(EnumAllele.Height.LARGEST).setFertility(EnumAllele.Saplings.LOWEST)
+                .setMaturation(EnumAllele.Maturation.SLOWER).setGirth(2);
 
         ExtraTreeSpecies.Box.addFamily(familyPome).addFamily(familyPrune).addFamily(familyNuts).addFamily(familyCitrus)
                 .setHeight(EnumAllele.Height.SMALLER).setMaturation(EnumAllele.Maturation.FASTER);

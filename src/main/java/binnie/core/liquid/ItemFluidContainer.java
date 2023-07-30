@@ -16,7 +16,7 @@ import binnie.core.util.I18N;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ItemFluidContainer extends ItemFood {
+public class ItemFluidContainer extends Item {
 
     private FluidContainer container;
     public static int LiquidExtraBee = 64;
