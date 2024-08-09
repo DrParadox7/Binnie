@@ -109,8 +109,4 @@ public class ItemFluidContainer extends Item {
         return true;
     }
 
-    @Override
-    public int getMaxItemUseDuration(ItemStack stack) {
-        return 32;
-    }
 }
