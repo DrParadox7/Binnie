@@ -109,7 +109,7 @@ public class TileEntityFlower extends TileEntity implements IPollinatable, IButt
         }
 
         updateRender(true);
-        this.owner = owner;
+        if (owner != null) this.owner = owner;
     }
 
     @Override
