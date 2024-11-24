@@ -61,7 +61,8 @@ public enum FlowerSpecies implements IAlleleFlowerSpecies {
             EnumFlowerColor.DARK_ORANGE),
     GERANIUM("geranium", "geranium", "quercifolium", EnumFlowerType.GERANIUM, EnumFlowerColor.DEEP_PINK),
     AZALEA("azalea", "rhododendrons", "luteum", EnumFlowerType.AZALEA, EnumFlowerColor.GOLD),
-    PRIMROSE("primrose", "primula", "vulgaris", EnumFlowerType.PRIMROSE, EnumFlowerColor.YELLOW_GREEN, EnumFlowerColor.GOLD),
+    PRIMROSE("primrose", "primula", "vulgaris", EnumFlowerType.PRIMROSE, EnumFlowerColor.YELLOW_GREEN,
+            EnumFlowerColor.GOLD),
     ASTER("aster", "aster", "amellus", EnumFlowerType.ASTER, EnumFlowerColor.MEDIUM_PURPLE, EnumFlowerColor.GOLDENROD),
     CARNATION("carnation", "dianthus", "caryophyllus", EnumFlowerType.CARNATION, EnumFlowerColor.CRIMSON,
             EnumFlowerColor.WHITE),
@@ -93,7 +94,8 @@ public enum FlowerSpecies implements IAlleleFlowerSpecies {
     PENSTEMON("penstemon", "penstemon", "digitalis", EnumFlowerType.PENSTEMON, EnumFlowerColor.MEDIUM_ORCHID,
             EnumFlowerColor.THISTLE),
     DELPHINIUM("delphinium", "delphinium", "staphisagria", EnumFlowerType.DELPHINIUM, EnumFlowerColor.DARK_SLATE_BLUE),
-    HOLLYHOCK("hollyhock", "Alcea", "rosea", EnumFlowerType.HOLLYHOCK, EnumFlowerColor.BLACK, EnumFlowerColor.GOLD);
+    HOLLYHOCK("hollyhock", "Alcea", "rosea", EnumFlowerType.HOLLYHOCK, EnumFlowerColor.BLACK, EnumFlowerColor.GOLD),
+    LILYVALLEY("lily of the valley", "Convallaria", "Majalis", EnumFlowerType.LILYVALLEY, EnumFlowerColor.WHITE);
 
     private EnumFlowerColor stemColor;
     private EnumAllele.Fertility fert;
@@ -390,6 +392,11 @@ public enum FlowerSpecies implements IAlleleFlowerSpecies {
         FlowerSpecies.HOLLYHOCK.setTraits(EnumAllele.Fertility.LOW, EnumAllele.Lifespan.LONG, EnumAllele.Sappiness.HIGH)
                 .setMutation(FlowerSpecies.DELPHINIUM, FlowerSpecies.LAVENDER, 5)
                 .setPH(EnumAcidity.NEUTRAL, EnumTolerance.UP_1).setStemColor(EnumFlowerColor.GREEN);
+
+        FlowerSpecies.LILYVALLEY
+                .setTraits(EnumAllele.Fertility.NORMAL, EnumAllele.Lifespan.SHORT, EnumAllele.Sappiness.LOW)
+                .setMutation(FlowerSpecies.ORCHID, FlowerSpecies.BLUET, 10).setPH(EnumAcidity.ACID, EnumTolerance.UP_1)
+                .setTemperature(EnumTemperature.WARM, EnumTolerance.BOTH_1).setStemColor(EnumFlowerColor.GREEN);
 
         IFlowerRoot flowerRoot = BotanyCore.getFlowerRoot();
         flowerRoot.addConversion(new ItemStack(Blocks.yellow_flower, 1, 0), FlowerSpecies.DANDELION.getTemplate());
