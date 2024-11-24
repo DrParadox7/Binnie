@@ -55,7 +55,8 @@ public enum EnumFlowerType implements IFlowerType {
     ALTHEA(2),
     PENSTEMON(2),
     DELPHINIUM(2),
-    HOLLYHOCK(2);
+    HOLLYHOCK(2),
+    LILYVALLEY;
 
     protected int sections;
     protected IIcon[] stem;
